@@ -1,1 +1,1 @@
-# quantumultx
+# config
