@@ -48,7 +48,7 @@ server=/*.xiaomi.com/119.29.29.29
 [policy]
 static=🚀节点选择, proxy, direct, ♻️ 自动选择, 🔮 负载均衡, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Auto.png
 url-latency-benchmark=♻️ 自动选择, server-tag-regex=.*, check-interval=600, tolerance=100, alive-checking=false, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TestFlight.png
-static=手动切换,  direct, server-tag-regex=., img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/chxm1023/Quantumult_X_1.png
+static=手动切换, server-tag-regex=., img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/chxm1023/Quantumult_X_1.png
 round-robin=🔮 负载均衡, server-tag-regex=.*, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Round_Robin.png
 static=AppleIOSUpdate, reject, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_1.png
 static=人工智能, proxy, 美国节点, 狮城节点, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Icons/Policies/OpenAI.png
