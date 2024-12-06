@@ -71,7 +71,7 @@ url-latency-benchmark=香港节点, server-tag-regex=(?i)🇭🇰|香港|(\b(HK|
 url-latency-benchmark=美国节点, server-tag-regex=(?i)🇺🇸|美国|洛杉矶|圣何塞|(\b(US|United States)\b), check-interval=60, alive-checking=false, tolerance=0, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
 url-latency-benchmark=狮城节点, server-tag-regex=(?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b), check-interval=60, alive-checking=false, tolerance=0, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
 url-latency-benchmark=日本节点, server-tag-regex=(?i)🇯🇵|日本|东京|(\b(JP|Japan)\b), check-interval=60, alive-checking=false, tolerance=0, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
-url-latency-benchmark=台湾节点, server-tag-regex=(?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b), check-interval=60, alive-checking=false, tolerance=0, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.pn
+url-latency-benchmark=台湾节点, server-tag-regex=(?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b), check-interval=60, alive-checking=false, tolerance=0, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png
 
 [server_remote]
 #远程节点订阅
