@@ -46,23 +46,32 @@ server=/*.xiaomi.com/119.29.29.29
 ;address=/example6.com/[2001:8d3:8d3:8d3:8d3:8d3:8d3:8d3]
 
 [policy]
-static=🚀节点选择, proxy, direct, ♻️ 自动选择, 🔮 负载均衡, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Auto.png
+
+static=🚀节点选择,♻️ 自动选择, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, direct, server-tag-regex=., img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/chxm1023/Quantumult_X_1.png
 url-latency-benchmark=♻️ 自动选择, server-tag-regex=.*, check-interval=600, tolerance=100, alive-checking=false, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TestFlight.png
-round-robin=🔮 负载均衡, server-tag-regex=.*, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Round_Robin.png
 static=AppleIOSUpdate, reject, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_1.png
-static=人工智能, proxy, 美国节点, 狮城节点, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/Images/Icons/Policies/OpenAI.png
 static=全球加速, 🚀节点选择, proxy, 香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png
 static=哔哩哔哩, direct, 香港节点, 台湾节点, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili.png
 static=声田音乐, 美国节点, direct, 台湾节点, 香港节点, 日本节点, 狮城节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Spotify.png
 static=苹果服务, direct, proxy, 香港节点, 台湾节点, 美国节点, 日本节点, 狮城节点, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_2.png
 static=港台番剧, direct, 香港节点, 台湾节点, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili_3.png
-static=国际媒体, 🚀节点选择, proxy, 香港节点, 台湾节点, 日本节点, 美国节点, 狮城节点, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube_Music.png
-static=黑白名单, proxy, direct, 香港节点, 台湾节点, 日本节点, 狮城节点, 美国节点, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
-url-latency-benchmark=香港节点, server-tag-regex=(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|美)).)*$, check-interval=60, tolerance=0, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HK.png
-url-latency-benchmark=台湾节点, server-tag-regex=(?=.*(台|TW|(?i)Taiwan))^((?!(港|日|韩|新|美)).)*$, check-interval=60, tolerance=0, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TW.png
-url-latency-benchmark=日本节点, server-tag-regex=(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$, check-interval=60, tolerance=0, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/JP.png
-url-latency-benchmark=狮城节点, server-tag-regex=(?=.*(新|狮|獅|SG|(?i)Singapore))^((?!(港|台|日|韩|美)).)*$, check-interval=60, tolerance=0, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/SG.png
-url-latency-benchmark=美国节点, server-tag-regex=(?=.*(美|US|(?i)States|American))^((?!(港|台|日|韩|新)).)*$, check-interval=60, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
+static=国外网站, 🚀节点选择, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png
+static=国际媒体, 🚀节点选择, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
+static=微软服务, 🚀节点选择 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png
+static=谷歌服务, 🚀节点选择, 手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
+static=电报消息, 🚀节点选择,手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, proxy, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
+static=推特消息, 🚀节点选择,手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png
+static=人工智能, 🚀节点选择, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png
+static=游戏平台, 🚀节点选择, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png
+static=Spotify, 🚀节点选择, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png
+static=Emby, 🚀节点选择, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, direct, server-tag-regex=., img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png
+static=兜底分流, 🚀节点选择, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, direct, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
+
+url-latency-benchmark=香港节点, server-tag-regex=(?i)🇭🇰|香港|(\b(HK|Hong)\b), check-interval=60, alive-checking=false, tolerance=0, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
+url-latency-benchmark=美国节点, server-tag-regex=(?i)🇺🇸|美国|洛杉矶|圣何塞|(\b(US|United States)\b), check-interval=60, alive-checking=false, tolerance=0, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
+url-latency-benchmark=狮城节点, server-tag-regex=(?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b), check-interval=60, alive-checking=false, tolerance=0, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
+url-latency-benchmark=日本节点, server-tag-regex=(?i)🇯🇵|日本|东京|(\b(JP|Japan)\b), check-interval=60, alive-checking=false, tolerance=0, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
+url-latency-benchmark=台湾节点, server-tag-regex=(?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b), check-interval=60, alive-checking=false, tolerance=0, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.pn
 
 [server_remote]
 #远程节点订阅
