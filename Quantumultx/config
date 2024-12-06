@@ -58,7 +58,7 @@ static=港台番剧, direct, 香港节点, 台湾节点, img-url=https://raw.git
 static=国外网站, 🚀节点选择, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png
 static=国际媒体, 🚀节点选择, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
 static=微软服务, 🚀节点选择, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png
-static=谷歌服务, 🚀节点选择, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
+static=谷歌服务, 🚀节点选择, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, proxy, server-tag-regex=.,  img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png
 static=电报消息, 🚀节点选择, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, proxy, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
 static=推特消息, 🚀节点选择, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png
 static=人工智能, 🚀节点选择, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png
